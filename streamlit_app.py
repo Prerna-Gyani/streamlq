@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-from constants import APIKEY
 from langchain.document_loaders import DirectoryLoader
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.llms import OpenAI
